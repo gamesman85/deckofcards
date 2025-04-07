@@ -1,4 +1,6 @@
 #include "Deck.h"
+#include <algorithm>  // For std::shuffle
+#include <random>     // For std::default_random_engine
 
 Deck::Deck() {
     reset(); // Call reset() to populate the deck

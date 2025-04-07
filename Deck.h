@@ -2,8 +2,6 @@
 
 #include "Card.h"
 #include <vector>
-#include <algorithm>
-#include <random>
 
 class Deck {
 private:
